@@ -1,6 +1,8 @@
 body
 {
-    background: #2d255f url(visuals/purple_overlay.gif) center cover no-repeat;
+    background: #2d255f url(visuals/purple_overlay.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-blend-mode: multiply;
 }
 
