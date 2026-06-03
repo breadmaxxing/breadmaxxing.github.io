@@ -1,18 +1,19 @@
 body
 {
-    background-image: url(visuals/purple_overlay.gif);
-    background-repeat: no-repeat;
-    
+    background: #2d255f url(visuals/purple_overlay.gif) center cover no-repeat;
+    background-blend-mode: multiply;
 }
+
 h1, h2, h3, h4, h5, h6, li
 {
     color: #a18ae0;
+
 }
-.intro, .aboutMe, .interact, .dni, .socials
+.intro, .aboutMe, .interact, .dni, .socials, .websites-projects
 {
     background-color: #894cb590;
+    background-image: linear-gradient(#5634ec, #2d255f);
     border-radius: 7px;
     text-align: center;
     width: 400px;
-    
 }
