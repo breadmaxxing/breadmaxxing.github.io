@@ -1,12 +1,12 @@
 body
 {
-    background-image: url();
+    background-image: url(visuals/purple\ overlay.gif);
 }
 p
 {
     color: #00e633;
 }
-.chud 
+.intro, .aboutMe, .interact, .dni, .socials
 {
     background-color: #894cb590;
     border-radius: 7px;
