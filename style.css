@@ -16,6 +16,22 @@ h1, h2, h3, h4, h5, h6, li
 {
     display: grid;
     justify-items: center;
+    width: 50%;
+    background-color: white;
+}
+
+#rightSide
+{
+    background-color: blue;
+    width: 25%;
+    justify-self: right;
+}
+
+#leftSide
+{
+    background-color: red;
+    width: 25%;
+    justify-self: left;
 }
 
 .block
