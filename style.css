@@ -11,12 +11,19 @@ h1, h2, h3, h4, h5, h6, li
     color: #a18ae0;
 
 }
-.intro, .aboutMe, .interact, .dni, .socials, .websites-projects
+
+#main
+{
+    display: grid;
+}
+
+.block
 {
     background-color: #894cb590;
     background-image: linear-gradient(#5634ec, #2d255f);
     border-radius: 7px;
     text-align: center;
-    width: 400px;
-    position: static;
+    width: 25%;
+    position: initial;
+    align-self: center;
 }
