@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6, li
 {
     display: grid;
     justify-items: center;
+    width: auto;
     background-color: white;
 }
 
@@ -23,14 +24,19 @@ h1, h2, h3, h4, h5, h6, li
 {
     background-color: blue;
     width: 25%;
+    height: 85%;
     justify-self: right;
+    justify-self: top;
 }
 
 #leftSide
 {
     background-color: red;
     width: 25%;
+    height: 85%;
     justify-self: left;
+    justify-self: top;
+    margin: 5px;
 }
 
 .block
