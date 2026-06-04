@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6, li
 {
     display: grid;
     background-color: white;
-
+    align-items: center;
 }
 
 .block
@@ -27,5 +27,4 @@ h1, h2, h3, h4, h5, h6, li
     text-align: center;
     width: 25%;
     position: initial;
-    align-self: center;
 }
