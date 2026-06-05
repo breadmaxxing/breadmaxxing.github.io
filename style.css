@@ -24,8 +24,7 @@ h1, h2, h3, h4, h5, h6, li
 {
     background-color: blue;
     width: 25%;
-    min-height: 85%;
-    positioning: absolute;
+    position: absolute;
     justify-self: right;
     margin: 5px;
 }
@@ -34,8 +33,7 @@ h1, h2, h3, h4, h5, h6, li
 {
     background-color: red;
     width: 25%;
-    min-height: 85%;
-    positioning: absolute;
+    position: absolute;
     justify-self: left;
     margin: 5px;
 }
